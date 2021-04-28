@@ -1,0 +1,73 @@
+#pied{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 600px;
+    padding: 0 115px 0 115px;
+    height: 100vh;
+}
+
+.deco{
+    position: relative;
+    background: #373CF5;
+    align-items: center;
+    .line{
+        position: absolute;
+        top: 0;
+        right: 296px;
+        border-left: 8px solid white;
+        display: inline-block;
+        height: 75%;
+        margin-left: 296px;
+    }
+}
+.recap-conseiller{
+    color: #666666;
+    .conseiller-info{
+        position: absolute;
+        bottom: 300px;
+        padding-bottom: 45px;
+        border-bottom: solid 2px #666666;
+        width: calc(100% - 920px);
+    }
+    h1{
+        font-size: 54pt;
+        font-weight: 700;
+        padding-bottom: 35px;
+    }
+    h2{
+        font-size: 32pt;
+        font-weight: 300;
+    }
+}
+
+.top{
+    margin-top: 150px;
+    height: 400px;
+    background: #666666;
+    display: grid;
+    place-content: center;
+    width: calc(100% - 115px);
+    img{
+        height: 200px;
+        margin-top: -50px;
+    }
+}
+
+.laboutic-content{
+    margin-top: 150px;
+}
+.laboutic-content,.facebook-content,.cofeeCom-content {
+    padding-bottom: 45px;
+    width: calc(100% - 115px);
+    height: 500px;
+    
+    p{
+        font-size: 32pt;
+        font-weight: 300;
+    }
+}
+
+.margin{
+    margin-top: 60px;
+    width: calc(100% - 920px);
+}

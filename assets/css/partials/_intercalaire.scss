@@ -1,0 +1,53 @@
+.intercalaire-legend{
+    position: absolute;
+    right: 115px;
+    margin-top: -150px;
+    min-height: 870px;
+    display: grid;
+    grid-template-rows: 435px 435px;
+    grid-template-areas: 
+    "lin"
+    "title";
+    width: 600px;
+    z-index: 2;
+    color: white;
+    background: #373CF5;
+
+    .line{
+        position: absolute;
+        grid-area: lin;
+        top: 0;
+        right: 296px;
+        border-left: 4px solid white;
+        display: inline-block;
+        height: 100%;
+        margin-left: 296px;
+    }
+}
+.intercalaire-title{
+    grid-area: title;
+    display: flex;
+    place-content: center;
+    text-align: center;
+    width: 600px;
+    padding: 60px;
+    font-size: 55pt;
+    font-weight: 900;
+    line-height: 100pt;
+}
+.intercalaire-introduction{
+    padding: 90px;
+    margin-top: 1020px;
+    width: 1090px;
+    position: absolute;
+    top: 0;
+    left: 115px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    place-content: center;
+    color: #666666;
+    font-size: 45pt;
+    font-weight: 300;
+    line-height: 75pt;
+}

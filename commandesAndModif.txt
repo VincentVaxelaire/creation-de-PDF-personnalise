@@ -1,0 +1,5 @@
+docker run --rm -p 3000:3000 thecodingmachine/gotenberg:6
+php -S localhost:8000
+
+
+ouvrir le bon localhost : http://localhost:8000/index.php?id_entreprise=3878&id_ceo=3919

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "php-http/guzzle6-adapter": "^2.0",
+        "thecodingmachine/gotenberg-php-client": "^6.3",
+        "http-interop/response-sender": "^1.0",
+        "clegginabox/pdf-merger": "dev-master"
+    }
+}

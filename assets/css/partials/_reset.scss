@@ -1,0 +1,16 @@
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+#header, #intercalaire, #recap-diagnostic, .conseil-page{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    padding: 150px 115px 0 115px;
+}
